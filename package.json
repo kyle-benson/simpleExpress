@@ -1,0 +1,23 @@
+{
+  "name": "simpleexpress",
+  "version": "1.0.0",
+  "description": "A simple nodejs server hosting a single html page",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha tests/*_test.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyle-benson/simpleExpress.git"
+  },
+  "author": "Kyle Benson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyle-benson/simpleExpress/issues"
+  },
+  "homepage": "https://github.com/kyle-benson/simpleExpress",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
